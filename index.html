@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda da Dra. Bruna</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📅 Agenda da Dra. Bruna Batista</h1>
+  </header>
+  <main>
+    <div class="status-bar">
+      <span id="total">Total: --</span>
+      <span id="confirmados">Confirmados: --</span>
+      <span id="pendentes">Pendentes: --</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Paciente</th>
+          <th>Telefone</th>
+          <th>Data</th>
+          <th>Horário</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="agenda-body">
+        <tr><td colspan="5">Carregando dados...</td></tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    Painel conectado ao Google Sheets
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
